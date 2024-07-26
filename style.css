@@ -1,0 +1,685 @@
+*{
+
+    margin:0;
+    padding:0;
+
+}
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(239, 225, 181, 0.7), rgba(239, 225, 181, 0.7)), url("Screenshot 2024-06-05 222151.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul li a:active {
+    color: purple;
+}
+.nav-links ul li a {
+    text-decoration: none;
+}
+nav img{
+
+    width: 150px;
+}
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+    
+    
+
+}
+
+.nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+   font-size: 30px;
+   text-decoration: none; /* Removing default link underline */
+
+
+
+
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: blueviolet;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    text-decoration: none; /* Removing default link underline */
+
+}
+
+.nav-links ul li:hover::after{
+
+    width: 100%;
+    background: blueviolet;
+
+}
+
+.text-box{
+
+    width: 90%;
+    color:rgba(0, 0, 0, 0.87);
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    
+
+
+}
+
+.text-box h1{
+
+
+    font-size: 65px;
+}
+
+
+.hero-btn {
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    border: 1px solid #ffffff; /* Adding border for button appearance */
+    background: transparent;
+    padding: 10px 20px; /* Adding padding for button size */
+    text-decoration: none; /* Removing default link underline */
+    cursor: pointer; /* Changing cursor to pointer on hover */
+    border-radius: 5px; /* Adding border radius for rounded corners */
+    
+}
+
+.hero-btn:hover{
+   background: #551c8f;
+    border: 1px solid #ffffff; /* Adding border for button appearance */
+   ;
+}
+
+
+
+
+/*--courses--*/
+.Course {
+    
+    text-align: center;
+    padding-top: 100px;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(248, 213, 100, 0.7), rgba(239, 225, 181, 0.7)), url("Screenshot 2024-06-06 013338.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+.row{
+margin-top: 5%;
+display: flex;
+justify-content: space-between;
+width: 100%;
+
+}
+
+.course-col {
+    flex-basis: 32%;
+   box-sizing: border-box;
+   background:#f9d68b;
+   border-radius: 20px;
+   margin-bottom: 6%;
+
+  }
+
+ ha{
+
+    font-size: 50px;
+ } 
+
+ h3{
+    text-align: center;
+    font-size: 40px;
+ }
+  
+ .course-col:hover{
+
+    box-shadow:0 0 20px 0px #944a0e;
+
+ }
+
+
+ .campus{
+
+    text-align: center;
+    padding-top: 150px;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(237, 254, 225, 0.7), rgba(184, 249, 141, 0.7)), url("Screenshot 2024-06-06 102527.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ }
+
+.campus-rol{
+    flex-basis: 32%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.campus-rol img{
+
+    width: 100%;
+
+}
+
+.layer{
+
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+
+    background: rgba(204, 239, 196, 0.87);
+    box-shadow:0 0 20px 0px #26dd51;
+
+}
+
+.layer h3{
+
+font-size: medium;
+color: #000000;
+opacity: 0;
+
+}
+
+.layer:hover h3{
+
+    opacity: 1;
+}
+
+
+.text-box1 {
+    text-align: center;
+    margin-top: 30px; /* Adjust the top margin as needed */
+}
+
+
+
+
+.ours {
+    
+    text-align: center;
+    padding-top: 100px;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(211, 220, 251, 0.7), rgba(158, 178, 243, 0.7)), url("Screenshot 2024-06-06 180356.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.tcol{
+flex-basis: 32%;
+border-radius: 10px;
+margin-bottom: 5%;
+text-align: left;
+background-image: linear-gradient(rgba(211, 220, 251, 0.7), rgba(158, 178, 243, 0.7));
+padding: 30px;
+cursor: pointer;
+display: flex;
+margin-right: 10%;
+
+}
+
+.tcol img{
+border-radius: 50%;
+height: 30px;
+
+
+}
+
+.tcol h3{
+
+margin-top: 15px;
+}
+
+
+.icon i {
+    font-size: 30px; /* Adjust the size as needed */
+}
+
+.icon {
+    margin-top: 60px;
+    text-align: center;
+    /* Adjust the value as needed */
+}
+
+.c{
+
+    margin-top: 100px; /* Adjust the value as needed */
+
+
+}
+
+h4{
+
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+
+
+.sub-header{
+
+    text-align: center;
+    min-height: 55vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(211, 220, 251, 0.7), rgba(158, 178, 243, 0.7)), url("Screenshot 2024-06-10 111520.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.sub-header H1{
+
+    margin-top: 100px;
+    font-size: 55px;
+}
+
+
+.aboutus{
+
+    width: 100%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #dde3f8;
+}
+
+.acol{
+
+    padding: 30px;
+}
+
+
+.black-btn{
+background: transparent;
+border:1px solid #be89f2;
+color:#d2b2f3;
+}
+
+
+.black-btn :hover{
+
+    color:#ffffff;
+}
+
+.c1{
+
+    text-align: center;
+    width: 90%;
+}
+
+.sub-headerr{
+    background-image: linear-gradient(rgba(234, 205, 254, 0.7), rgba(235, 228, 255, 0.7)), url("Screenshot 2024-06-10 115846.png");
+    min-height: 55vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.sub-headerr h1{
+
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly between items */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 40px; /* Add space between dropdown titles */
+
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #dbdafe;
+    border: 1px solid #000000;
+    padding: 25px 0; /* Increase padding to add space around the dropdown items */
+
+
+  }
+  
+  nav ul ul li {
+    display: block;
+    font-size: 20px; /* Increase font size */
+
+  }
+  
+  nav ul ul li a {
+    padding: 10px;
+    text-decoration: none; /* Remove underline from dropdown items */
+  color: #000000; /* Set color for dropdown item text */
+  font-size: 25px; /* Increase font size for dropdown titles */
+
+  }
+
+
+  .co{
+
+    background-color: #ded5f1;
+  }
+
+  .cn{
+
+background-color: #ffffff;
+
+  }
+
+
+  .cn h3{
+
+    margin-top: 30px;
+  }
+
+  .cn {
+    display: flex;
+    justify-content: space-between; /* Adjust space between sections */
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 90px;
+}
+
+.section {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px; /* Space between sections */
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background-color: #f6e9ff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.info-box p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+.coo h3{
+
+
+    margin-top: 90px;
+}
+
+
+.info-box{
+
+    background: #f2e2fc;
+    text-align: left;
+}
+
+.info-box :hover{
+
+    box-shadow:0 0 20px 0px #af77fe;
+
+
+}
+
+.section :hover{
+
+    box-shadow:0 0 20px 0px #af77fe;
+
+}
+
+
+.an{
+
+    align-items: center;     /* Centers items vertically */
+    
+    display: flex;           /* Enables flexbox layout */
+
+    justify-content: center; /* Centers items horizontally */
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    
+
+
+}
+
+
+
+
+
+
+
+.moving-text {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000000;
+    animation: moveText 15s linear infinite;
+    background-color: #f4a3d0;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(100%);
+    }
+   
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.sub-headerrr{
+    background-image:  url("Screenshot 2024-06-11 104309.png");
+    min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.next {
+    display: flex;
+    justify-content: center; /* Centers the ul horizontally */
+    text-align: center; /* Centers the text within the li */
+    width: 100%; /* Ensure the section takes the full width of its container */
+    padding-top: 50px;
+    font-size: x-large;
+}
+
+.next ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.next li {
+    margin: 10px 0; /* Add some space between the list items */
+}
+
+.next a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set link color (adjust as needed) */
+    font-size: 1.2em; /* Adjust font size as needed */
+    transition: color 0.3s ease-in-out; /* Optional: smooth transition effect for hover */
+}
+
+.next a:hover {
+    color: #a532e8; /* Change color on hover (adjust as needed) */
+}
+
+
+.newb {
+    display: flex;
+    justify-content: space-around; /* Adjusts spacing between images */
+    flex-wrap: wrap; /* Allows wrapping if the screen size is small */
+    text-align: center; /* Centers the text under each image */
+    width: 85%;
+    margin: 0 auto; /* Center the container horizontally */
+
+}
+
+.new {
+    margin: 30px; /* Optional: Adds some margin around each section */
+}
+
+.new img:hover{
+
+    box-shadow:0 0 20px 0px #e83299;
+    transition: box-shadow 0.3s ease-in-out; /* Optional: Smooth transition effect */
+
+
+}
+
+
+.sub-headerrrr{
+    background-image:  url("Screenshot 2024-06-11 115556.png");
+    min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.is{
+
+    width: 80%;
+    margin: 0 auto; /* Center the container horizontally */
+
+}
+
+
+.side-panel {
+    width: 300px; /* Adjust width as needed */
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    float: right; /* Align to the right side of the page */
+    align-items: center;
+    text-align: center;
+
+}
+
+.side-panel button {
+    display: block; /* Display buttons as block-level elements */
+    margin: 10px auto; /* Center the buttons vertically and add margin between them */
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #f9e98f;
+    width: 100%;
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    border: none; /* Remove button border */
+    border-radius: 10px; /* Make corners smooth */
+}
+
+.side-panel button:hover{
+    background-color: #efd231; /* Change background color on hover */
+    color: #000000; /* Change text color on hover */
+
+}
+
+
+.scho{
+
+    background-color: #ffffff;
+    width: 80%;
+    margin:0 auto;
+    margin-bottom: 20px; /* Add margin between the sections */
+
+}
+
+.box :hover{
+
+    background-color: #efd231; /* Change background color on hover */
+
+}
+
+.cont{
+
+    margin: 50px;
+}
